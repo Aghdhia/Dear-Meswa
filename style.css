@@ -22,10 +22,16 @@ body{
   display: grid;
   place-items: center;
 }
+@media (max-width: 500px) {
+  .envelope-wrapper > .envelope {
+    width: 250px;
+    height: 190px;
+  }
 .container > .envelope-wrapper {
   background: var(--bg-envelope-color);
   box-shadow: 0 0 40px var(--shadow-color);
 }
+
 .envelope-wrapper > .envelope {
   position: relative;
   width: 300px;
@@ -123,7 +129,7 @@ body{
 .flap > .envelope > .letter {
   height: 240px;
   bottom: 100px;
-  transform: translateX(-50%) translateY(-20px) scale(1.8); /* <- add scale here */
+  transform: translateX(-50%) translateY(-20px) scale(1.5); /* <- add scale here */
   z-index: 3;
   transition: transform 1s ease-in-out, bottom 1s ease-in-out;
 }
