@@ -22,7 +22,6 @@ body{
   display: grid;
   place-items: center;
 }
-@media (max-width: 500px) {
   .envelope-wrapper > .envelope {
     width: 250px;
     height: 190px;
