@@ -64,7 +64,7 @@ body{
   bottom: 0;
   transform: translateX(-50%) translateY(0) scale(1);
   width: 80%;
-  height: 190px;
+  height: 180px;
   background: var(--primary);
   text-align: center;
   transition: all 0.8s ease-in-out;
@@ -127,12 +127,12 @@ body{
 }
 .flap > .envelope > .letter {
   height: 240px;
-  bottom: 100px;
+  bottom: 80px;
   transform: translateX(-50%) translateY(-20px) scale(1.5); /* <- add scale here */
   z-index: 3;
   transition: transform 1s ease-in-out, bottom 1s ease-in-out;
 }
 .flap > .heart {
-  transform: rotate(45deg) translateY(-80px) translateX(170px) scale(1.5);
+  transform: rotate(45deg) translateY(-70px) translateX(140px) scale(1.5);
   transition-delay: 0.4s;
 }
