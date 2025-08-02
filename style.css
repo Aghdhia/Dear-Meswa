@@ -133,6 +133,6 @@ body{
   transition: transform 1s ease-in-out, bottom 1s ease-in-out;
 }
 .flap > .heart {
-  transform: rotate(45deg) translateY(-70px) translateX(140px) scale(1.5);
+  transform: rotate(45deg) translateY(-40px) translateX(150px) scale(1.5);
   transition-delay: 0.4s;
 }
